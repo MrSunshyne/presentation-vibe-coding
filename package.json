@@ -3,8 +3,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
-    "build:gh": "slidev build --base /presentation-vibe-coding/",
+    "build": "slidev build --download false",
+    "build:gh": "slidev build --base /presentation-vibe-coding/ --download false",
     "dev": "slidev --open"
   },
   "dependencies": {
