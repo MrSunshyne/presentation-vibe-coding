@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
-    "build:gh": "slidev build --base /coders-mu-organizer-slides/",
+    "build:gh": "slidev build --base /presentation-vibe-coding/",
     "dev": "slidev --open"
   },
   "dependencies": {
