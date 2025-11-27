@@ -22,6 +22,7 @@ drawings:
 transition: view-transition
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+showSponsor: false
 # open graph
 seoMeta:
   # By default, Slidev will use ./og-image.png if it exists,
@@ -34,10 +35,11 @@ seoMeta:
 ## Lessons and exeperiences
 
 
+> A Presentation for the BTrust Dev Day 2025
 
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
+
+<img src="/images/btrust-branding/Btrust-Dev-Day-black.png" class="w-32 object-fit" />
+
 
 <div class="abs-br m-6 text-xl">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
@@ -73,14 +75,6 @@ src: ./pages/meetups/66/community.md
 ---
 src: ./pages/meetups/66/gallery.md
 ---
-
----
-layout: intro
----
-
-# Today's Agenda
-
-<span class="font-bold text-theme-orange">Talks</span> > Lunch break > Group photo > <span class="font-bold text-theme-orange">Talks</span> > Quiz
 
 ---
 src: ./pages/meetups/66/vibe.md

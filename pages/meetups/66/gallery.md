@@ -39,13 +39,3 @@ layout: image
 photo: /images/meetups/image_7.png
 caption: "Dayforce"
 ---
-
----
-layout: simple
-tagline: next meetuip
-heading: 22 November 2025
----
-
-# Beach Meetup 3.0
-## RSVP  is open
-## Bring & Share probably

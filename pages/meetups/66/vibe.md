@@ -48,7 +48,6 @@ heading: Vibe Coding
 <h2 v-click>Imposter Syndrome</h2>
 <div v-click class="text-xl font-light text-gray-400">am i a prompstitute? 🫢</div>
 
-
 ---
 layout: simple
 tagline: coders.mu
@@ -56,18 +55,6 @@ heading: Vibe Coding
 ---
 
 ## Are you proud to share <span class="text-gray-400 font-light line-through">claude's</span> your accomplishments ?
-
----
-layout: simple
-tagline: coders.mu
-heading: Vibe Coding
----
-
-## Company policies ?
-
-<div v-click class="text-xl font-light text-gray-400">some people are not allowed to use it</div>
-<div v-click class="text-xl font-light text-gray-400">some people are forced to use it</div>
-<div v-click class="text-xl font-light text-gray-400">some people are forced to use only microsoft copilot</div>
 
 ---
 layout: simple
@@ -104,7 +91,7 @@ tagline: coders.mu
 heading: Vibe Coding
 ---
 
-<h2 ><span v-click>1. You have a brain.</span> <span v-click>Try using that</span><span v-click> (first)</span></h2>
+<h2><span v-click>1. You have a brain.</span> <span v-click>Try using that</span><span v-click>(first ^^)</span></h2>
 <h2 v-click>2. Try MCPs</h2>
 <h2 v-click>4. Point it to the docs</h2>
 <h2 v-click>3. Build MCPs</h2>
@@ -116,10 +103,43 @@ heading: Vibe Coding
 ---
 
 <h2 v-click>The landscape has changed a lot since last year</h2>
-
 <h2 v-click>Next? No AGi but more powerful ways of using AI</h2>
 
+---
+layout: simple
+tagline: coders.mu
+heading: Vibe Coding / Open Source Software
+---
 
+## How do you feel about it ? 
+
+<div v-click class="text-xl font-light text-gray-400">Should it be allowed ?</div>
+<div v-click class="text-xl font-light text-gray-400">Should it be encouraged ?</div>
+<div v-click class="text-xl font-light text-gray-400">Should it be banned ?</div>
+
+---
+layout: simple
+tagline: coders.mu
+heading: AI & OSS Examples IRL
+---
+
+## FFmpeg vs Google Big Sleep
+
+---
+layout: simple
+tagline: coders.mu
+heading: AI & OSS Examples IRL
+---
+
+## Express.js vs PR Spams
+
+---
+layout: simple
+tagline: coders.mu
+heading: AI & OSS Examples IRL
+---
+
+## Laravel vs AI Generated Pull Requests
 
 ---
 layout: simple
@@ -127,5 +147,7 @@ tagline: coders.mu
 heading: Vibe Coding
 ---
 
-## MCP Demo
+## Etiquette when dealing with OSS Projects
 
+<div v-click class="text-xl font-light text-gray-400">The goal should not be to get your PR merged but to get the project to a better state</div>
+<div v-click class="text-xl font-light text-gray-400">The goal should not be to get your PR merged but to get the project to a better state</div>
