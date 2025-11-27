@@ -2,11 +2,14 @@
 import CardLayers from '../components/CardLayers.vue'
 
 // Define props that will be populated from frontmatter
-const props = defineProps<{
+const props = withDefaults(defineProps<{
   tagline?: string
   heading?: string
   text?: string
-}>()
+  showSponsor?: boolean
+}>(), {
+  showSponsor: true,
+})
 </script>
 
 <template>
@@ -21,7 +24,7 @@ const props = defineProps<{
     </div>
     
     <!-- Layered cards component -->
-    <CardLayers size="default" class="h-full">
+    <CardLayers size="default" class="h-full" :show-sponsor="showSponsor">
       <div class="layout-default flex flex-col h-full">
         <!-- Tagline (small, uppercase) -->
         <p v-if="tagline" class="text-sm uppercase tracking-wider font-bold !text-gray-400 !m-0">

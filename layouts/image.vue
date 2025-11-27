@@ -2,10 +2,13 @@
 import CardLayers from '../components/CardLayers.vue'
 import { computed } from 'vue'
 // Define props that will be populated from frontmatter
-const props = defineProps<{
+const props = withDefaults(defineProps<{
   photo?: string
   caption?: string
-}>()
+  showSponsor?: boolean
+}>(), {
+  showSponsor: true,
+})
 
 const photoUrl = computed(() => {
   if (!props.photo) return ''
@@ -29,7 +32,7 @@ const photoUrl = computed(() => {
     </div>
     
     <!-- Layered cards component -->
-    <CardLayers size="large" no-padding>
+    <CardLayers size="large" no-padding :show-sponsor="showSponsor">
       <div class="layout-default h-full flex items-center justify-center p-0 relative">
         <!-- Display image if photo prop is provided -->
         <img 

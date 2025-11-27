@@ -3,12 +3,14 @@ interface Props {
   size?: 'default' | 'intro' | 'large'
   centerContent?: boolean
   noPadding?: boolean
+  showSponsor?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
   size: 'default',
   centerContent: false,
   noPadding: false,
+  showSponsor: true,
 })
 
 // Calculate dimensions based on size
@@ -59,7 +61,7 @@ const current = dimensions[props.size]
         class="card-layer card-layer-white bg-white rounded-12px border-4 border-black shadow-2xl flex flex-col overflow-hidden relative"
         style="view-transition-name: card-layer-white"
       >
-        <div class="absolute bottom-10px right-10px w-100px font-bold text-theme-green leading-none z-10 bg-white border-2 border-black rounded-md">
+        <div v-if="showSponsor" class="absolute bottom-10px right-10px w-100px font-bold text-theme-green leading-none z-10 bg-white border-2 border-black rounded-md">
          <img src="/images/btrust-branding/Btrust-Dev-Day-black.png" class="w-64 object-fit" />
         </div>
         <!-- Green asterisk accent -->

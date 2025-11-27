@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import CardLayers from '../components/CardLayers.vue'
 
 // Define props for organizers data
-const props = defineProps<{
+const props = withDefaults(defineProps<{
   community?: string
   organizers?: Array<{
     name: string
@@ -11,7 +11,10 @@ const props = defineProps<{
     company: string
     image: string
   }>
-}>()
+  showSponsor?: boolean
+}>(), {
+  showSponsor: true,
+})
 
 // Generate unique blob shapes for each organizer
 const getBlobShape = (index: number) => {
@@ -52,7 +55,7 @@ const borderColors = ['#0080FF', '#FFD700', '#FF6B4A']
     </div>
     
     <!-- Layered cards component -->
-    <CardLayers size="default">
+    <CardLayers size="default" :show-sponsor="showSponsor">
       <div class="layout-default h-full flex flex-col">
         
         <!-- Header -->

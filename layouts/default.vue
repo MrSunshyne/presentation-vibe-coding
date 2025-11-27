@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import CardLayers from '../components/CardLayers.vue'
+
+const props = withDefaults(defineProps<{
+  showSponsor?: boolean
+}>(), {
+  showSponsor: true,
+})
 </script>
 
 <template>
@@ -14,7 +20,7 @@ import CardLayers from '../components/CardLayers.vue'
     </div>
     
     <!-- Layered cards component -->
-    <CardLayers size="default">
+    <CardLayers size="default" :show-sponsor="showSponsor">
       <div class="layout-default">
         <slot />
       </div>
