@@ -124,7 +124,7 @@ heading: AI & OSS Examples IRL
 
 ---
 layout: image-bottom
-image: /images/ffmpeg.png
+image: images/ffmpeg.png
 heading: AI & OSS Examples IRL
 ---
 
@@ -148,7 +148,7 @@ heading: AI & OSS Examples IRL
 
 ---
 layout: image-bottom
-image: /images/linus.jpg
+image: images/linus.jpg
 heading: AI & OSS Examples IRL
 ---
 
@@ -164,7 +164,7 @@ heading: AI & OSS Examples IRL
 
 ---
 layout: image-bottom
-image: /images/zig.png
+image: images/zig.png
 heading: AI & OSS Examples IRL
 ---
 
