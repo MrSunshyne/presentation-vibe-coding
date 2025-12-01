@@ -6,6 +6,12 @@
 }
 
 /* Dark mode - Adjust background color */
+html .bg-theme-blue {
+  background-color: hwb(0 0% 100%) !important;
+}
+
+
+/* Dark mode - Adjust background color */
 html.dark .bg-theme-blue {
   background-color: #004080 !important;
 }
@@ -347,8 +353,8 @@ html.dark .bg-white {
   background-color: #1e293b !important;
 }
 
-html.dark .bg-theme-orange {
-  background-color: #c74e33 !important;
+html .bg-theme-yellow {
+  background-color: #F1911C !important;
 }
 
 html.dark .bg-theme-yellow {

@@ -32,7 +32,9 @@ tagline: coders.mu
 heading: Vibe Coding
 ---
 
-# How many of you vibe code ?
+<div class="h-full flex flex-col items-center justify-center text-5xl font-bold leading-normal">
+ How many of you vibe code ?
+</div>
 
 ::right::
 <QRCode url="https://slidev-audience-client.pages.dev/" />
@@ -47,6 +49,32 @@ heading: Vibe Coding
 ## Single prompt vs Prompt Engineering
 <h2 v-click>Imposter Syndrome</h2>
 <div v-click class="text-xl font-light text-gray-400">am i a prompstitute? 🫢</div>
+
+---
+layout: simple
+tagline: coders.mu
+heading: Where to vibe code ?
+---
+
+## Applied at various levels
+
+<div v-click class="text-2xl font-light text-gray-500">Pet Projects</div>
+<div v-click class="text-2xl font-light text-gray-500">Enterprise Software</div>
+<div v-click class="text-2xl font-light text-gray-500">Open Source Software</div>
+<div v-click class="text-2xl font-light text-gray-500">Critical Software</div>
+
+---
+layout: simple
+tagline: coders.mu
+heading: Vibe Coding / Open Source Software
+---
+
+## How do you feel about it ? 
+
+<div v-click class="text-xl font-light text-gray-400">Should it be allowed ?</div>
+<div v-click class="text-xl font-light text-gray-400">Should it be encouraged ?</div>
+<div v-click class="text-xl font-light text-gray-400">Should it be banned ?</div>
+<div v-click class="text-xl font-light text-gray-400">Should it be mandatory ?</div>
 
 ---
 layout: simple
@@ -83,39 +111,8 @@ tagline: coders.mu
 heading: Vibe Coding
 ---
 
-## Ok so what to do ?
-
----
-layout: simple
-tagline: coders.mu
-heading: Vibe Coding
----
-
-<h2><span v-click>1. You have a brain.</span> <span v-click>Try using that</span><span v-click>(first ^^)</span></h2>
-<h2 v-click>2. Try MCPs</h2>
-<h2 v-click>4. Point it to the docs</h2>
-<h2 v-click>3. Build MCPs</h2>
-
----
-layout: simple
-tagline: coders.mu
-heading: Vibe Coding
----
-
 <h2 v-click>The landscape has changed a lot since last year</h2>
 <h2 v-click>Next? No AGi but more powerful ways of using AI</h2>
-
----
-layout: simple
-tagline: coders.mu
-heading: Vibe Coding / Open Source Software
----
-
-## How do you feel about it ? 
-
-<div v-click class="text-xl font-light text-gray-400">Should it be allowed ?</div>
-<div v-click class="text-xl font-light text-gray-400">Should it be encouraged ?</div>
-<div v-click class="text-xl font-light text-gray-400">Should it be banned ?</div>
 
 ---
 layout: simple
@@ -124,6 +121,14 @@ heading: AI & OSS Examples IRL
 ---
 
 ## FFmpeg vs Google Big Sleep
+
+---
+layout: image-bottom
+image: /images/ffmpeg.png
+heading: AI & OSS Examples IRL
+---
+
+# FFmpeg vs Google Big Sleep
 
 ---
 layout: simple
@@ -139,7 +144,31 @@ tagline: coders.mu
 heading: AI & OSS Examples IRL
 ---
 
-## Laravel vs AI Generated Pull Requests
+## Linus Torvalds Thoughts on Linux
+
+---
+layout: image-bottom
+image: /images/linus.jpg
+heading: AI & OSS Examples IRL
+---
+
+## Linus Torvalds Thoughts on Linux
+
+---
+layout: simple
+tagline: coders.mu
+heading: AI & OSS Examples IRL
+---
+
+## Zig Moved out of Github
+
+---
+layout: image-bottom
+image: /images/zig.png
+heading: AI & OSS Examples IRL
+---
+
+## Zig - No LLMs Policy
 
 ---
 layout: simple
@@ -147,7 +176,11 @@ tagline: coders.mu
 heading: Vibe Coding
 ---
 
+
 ## Etiquette when dealing with OSS Projects
 
-<div v-click class="text-xl font-light text-gray-400">The goal should not be to get your PR merged but to get the project to a better state</div>
-<div v-click class="text-xl font-light text-gray-400">The goal should not be to get your PR merged but to get the project to a better state</div>
+<div v-click class="text-xl font-light text-gray-500">The goal should not be to get YOUR PR merged.</div>
+<div v-click class="text-xl font-light text-gray-500">but to get the project to a better state.</div>
+<div v-click class="text-xl font-light text-gray-500">
+    Do meaningful contributions
+</div>
