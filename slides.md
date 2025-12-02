@@ -64,11 +64,6 @@ hide: false
 ---
 
 ---
-src: ./pages/intro/speaker-find-md.md
-hide: false
----
-
----
 src: ./pages/meetups/66/community.md
 ---
 
@@ -81,3 +76,7 @@ src: ./pages/meetups/66/vibe.md
 hide: false
 ---
 
+---
+src: ./pages/intro/speaker-find-me.md
+hide: false
+---

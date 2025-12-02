@@ -25,6 +25,15 @@ layout: two-cols
   </div>
 </div>
 
-<!--
+<!-- 
 Speaker introduction slide - provides context about who is presenting and builds credibility before diving into the technical content.
--->
+ -->
+
+::right::
+
+<div class="text-2xl font-bold space-y-8 text-center">
+<div>Thank you for your attention </div>
+<div class="text-4xl font-bold">
+  Any Questions? 
+</div>
+</div>
