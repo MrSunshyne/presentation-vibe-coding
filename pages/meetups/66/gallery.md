@@ -18,18 +18,6 @@ caption: "Middlesex University"
 
 ---
 layout: image
-photo: /images/meetups/image_4.jpg
-caption: "Publicis Global Delivery"
----
-
----
-layout: image
-photo: /images/meetups/image_5.png
-caption: "Novity"
----
-
----
-layout: image
 photo: /images/meetups/image_6.png
 caption: "SD Worx"
 ---
