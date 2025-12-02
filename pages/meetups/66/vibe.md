@@ -29,6 +29,19 @@ heading: Vibe Coding
 ---
 layout: two-cols
 tagline: coders.mu
+heading: Code much ?
+---
+
+<div class="h-full flex flex-col items-center justify-center text-5xl font-bold leading-normal">
+ How many of you are developers ?
+</div>
+
+::right::
+<QRCode url="https://slidev-audience-client.pages.dev/" />
+
+---
+layout: two-cols
+tagline: coders.mu
 heading: Vibe Coding
 ---
 
@@ -56,12 +69,13 @@ tagline: coders.mu
 heading: Where to vibe code ?
 ---
 
-## Applied at various levels
+## Can exist at various levels
 
 <div v-click class="text-2xl font-light text-gray-500">Pet Projects</div>
 <div v-click class="text-2xl font-light text-gray-500">Enterprise Software</div>
 <div v-click class="text-2xl font-light text-gray-500">Open Source Software</div>
 <div v-click class="text-2xl font-light text-gray-500">Critical Software</div>
+<div v-click class="text-2xl font-light text-gray-500">Your Bitcoin software? </div>
 
 ---
 layout: simple
